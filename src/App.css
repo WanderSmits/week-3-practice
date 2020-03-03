@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+* {
+  font-family: "Courier New", Courier, monospace;
+}
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +29,61 @@
 
 .App-link {
   color: #61dafb;
+}
+
+main {
+  bottom: 10%;
+}
+
+.bottom {
+  position: fixed;
+  left: 43%;
+  text-align: center;
+  bottom: 10%;
+}
+
+.date {
+  position: fixed;
+  left: 41%;
+  text-align: center;
+  bottom: 15%;
+}
+
+input {
+  position: relative;
+  width: 16em;
+  display: block;
+  left: 44%;
+}
+
+.patient {
+  text-align: center;
+}
+
+.next {
+  display: inline;
+}
+
+.dutyTable {
+  font-size: 3rem;
+  position: relative;
+  top: 170px;
+  left: 38%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.dutyTableRow {
+  font-size: medium;
+  border: 1px solid black;
+}
+
+.patientLink {
+  border: black;
+  border-radius: 5px;
+  position: relative;
+  top: 200px;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
